@@ -1,0 +1,55 @@
+.header__main,
+.header__main-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__main-icon {
+  font-size: 18px;
+}
+
+.header__main-content {
+  margin-right: 10px;
+  padding: 4px;
+  color: #6dd5fa;
+  border: 2px solid #6dd5fa;
+  border-radius: 45%;
+  font-size: 13px;
+}
+
+.header__main-myphoto {
+  border-radius: 50%;
+}
+
+.search {
+  display: block;
+  margin-top: 100px;
+}
+
+.naver__search-bar-title,
+.naver__search-bar-url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.naver__search-title {
+  font-size: 40px;
+  font-weight: 600;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.naver__search-bar-main input {
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid #2980b9;
+  opacity: 0.7;
+  padding-left: 10px;
+}

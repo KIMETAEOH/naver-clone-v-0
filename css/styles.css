@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "status-bar.css";
+@import "header-main.css";
+@import "nav-bar.css";
+@import "shopping.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfcfc;
+  margin-bottom: 50px;
+  padding: 20px 20px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

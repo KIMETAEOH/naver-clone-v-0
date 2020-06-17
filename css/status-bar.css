@@ -1,0 +1,9 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.status-bar i {
+  font-size: 14px;
+}
