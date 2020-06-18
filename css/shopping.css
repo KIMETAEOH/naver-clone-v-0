@@ -50,13 +50,44 @@
   padding: 10px;
 }
 
-.ads {
-  display: flex;
-  margin-top: 10px;
-}
-
 .ads__main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f7f7f7f7;
+}
+
+.ads__main-left {
+  margin-right: 70px;
+}
+
+.ads__main-right-ment {
+  font-size: 18px;
+}
+
+.shopping__list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.list__photo {
+  justify-content: center;
+}
+
+.list__title {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping__title {
+  background-image: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+  margin-top: 10px;
+  padding: 3px;
+  color: white;
 }

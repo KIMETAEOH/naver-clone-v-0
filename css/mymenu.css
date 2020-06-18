@@ -1,0 +1,73 @@
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000080;
+  padding: 7px 7px;
+  color: white;
+}
+
+.status-header__icon-left {
+  border: 1px solid white;
+  padding: 1px 6px 1px 6px;
+  border-radius: 50%;
+}
+
+.status-header__icon-right-l {
+  border: 1px solid white;
+  padding: 3px 9px 3px 9px;
+  font-size: 13px;
+}
+
+.status-header__icon-right-r {
+  padding-left: 10px;
+}
+
+.mymenu-main {
+  display: flex;
+  margin-top: 25px;
+}
+
+.mymenu__title-main {
+  font-size: 20px;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.mymenu__title-b {
+  padding-left: 10px;
+  font-weight: 600;
+  background: linear-gradient(to left, #00d2ff, #3a7bd5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.mainmymenu {
+  margin-top: 30px;
+}
+
+.mymenu__list-icon {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.mymenu__list-icon-bottom {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.icon__list {
+  display: block;
+}
