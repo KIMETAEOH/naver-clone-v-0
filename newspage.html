@@ -23,79 +23,128 @@
         <i class="fas fa-battery-three-quarters"></i>
       </div>
     </div>
-    <div class="search__up">
-      <input type="text" value="Enter a search term or URL" />
-      <div class="search__up-icon">
+    <header class="search__bar">
+      <div class="search__bar-up">
         <span class="search__up-icon-left">N</span>
+        <input type="text" value="Search or URL" />
+        <div class="search__up-icon">
+          <span class="search__up-icon-right"
+            ><i class="fas fa-search"></i
+          ></span>
+        </div>
       </div>
-      <div class="search__up-icon">
-        <span class="search__up-icon-right"><i class="fas fa-search"></i></span>
-      </div>
-      <section class="mainmenu">
-        <div class="mainmenu__title">
+    </header>
+    <section class="mainmenu">
+      <div class="mainmenu__title">
+        <div class="mainmenu__title-items">
           <span class="mainmenu__title-list">News</span>
+        </div>
+        <div class="mainmenu__title-items">
           <span class="mainmenu__title-list">Ent</span>
+        </div>
+        <div class="mainmenu__title-items">
           <span class="mainmenu__title-list">Sports</span>
+        </div>
+        <div class="mainmenu__title-items">
           <span class="mainmenu__title-list">Search</span>
+        </div>
+        <div class="mainmenu__title-items">
           <span class="mainmenu__title-list">Mobile</span>
         </div>
-      </section>
-      <h5>View by media</h5>
-      <section class="media">
-        <div class="media__icon">
+      </div>
+    </section>
+    <section class="media">
+      <div class="media__first-title">
+        <span class="media__first-title-title">View by media</span>
+      </div>
+      <div class="media__icon">
+        <div class="media__icon-icc">
           <span class="media__icon-left"><i class="fab fa-medium-m"></i></span>
-        </div>
-        <div class="media__icon-right"><span class="media__icon-title">Money Today</span></div>
-      </section>
-      <section class="articles">
-        <div class="articles__column">
-          <span class="article__photo"><img src="images/news_covid.jpg"></span>
-        </div>
-        <div class="articles__column">
-          <span class="article__ment">COVID-19 PANDEMIC APPEAL</span>
-        </div>
-      </section>
-      <ul class="articlelist">
-        <li class="articlelist__list">
-          <span class="article__list-sub">South Korea sees rise in untraceable COVID-19 cases: KCDC</span>
+        </div> 
+        <div class="media__icon-ic">
+        <span class="media__icon-title">Money Today</span>
+      </div>
+    </section>
+    <section class="articles">
+      <div class="articles__column">
+        <span class="article__photo"><img src="images/news_covid.jpg" /></span>
+      </div>
+      <div class="articles__column">
+        <span class="article__ment">COVID-19 PANDEMIC APPEAL</span>
+      </div>
+    </section>
+    <ul class="articlelist">
+      <li class="articlelist__list">
+        <span class="article__list-sub">
+          South Korea sees rise in untraceable COVID-19 cases: KCDC</span
+        >
+      </li>
+      <li class="articlelist__list">
+        <span class="article__list-sub"
+          >Resolutions to inter-Korean relations show stark partisan
+          divide</span
+        >
+      </li>
+      <li class="articlelist__list">
+        <span class="article__list-sub"
+          >Lax fire safety caused deadly Icheon warehouse blaze: police</span
+        >
+      </li>
+    </ul>
+    <section class="broadnews">
+      <ul class="broadnews__list">
+        <li class="broadnews__list-items-broad">
+          <div class="broadnews__list-items-broad-bottom">
+            <div class="icon__live-badge-kbs">LIVE</div>
+           <span class="broad__icon-list">
+            <img src="images/kbsnews_logo.png" />
+           </span>
+          </div>
+          <span class="broad__title">KBS-news</span>
         </li>
-        <li class="articlelist__list">
-          <span class="article__list-sub">Resolutions to inter-Korean relations show stark partisan divide</span>
+        <li class="broadnews__list-items-broad">
+          <div class="broadnews__list-items-broad-bottom">
+            <div class="icon__live-badge-sbs">LIVE</div>
+           <span class="broad__icon-list">
+             <img src="images/sbs_logo.png" />
+            </span>
+          </div>
+          <span class="broad__title">SBS-news</span>
         </li>
-        <li class="articlelist__list">
-          <span class="article__list-sub">Lax fire safety caused deadly Icheon warehouse blaze: police</span>
+        <li class="broadnews__list-items-broad">
+          <div class="broadnews__list-items-broad-bottom">
+            <div class="icon__live-badge-ytn">LIVE</div>
+            <span class="broad__icon-list">
+              <img src="images/ytn_logo.png" />
+          </span>
+          </div>
+          <span class="broad__title">YTN-news</span>
         </li>
       </ul>
-      <section class="broadnews">
-        <ul class="broadnews__list">
-          <li class="broadnews__list-itmes broad">
-            <span class="broad-list">
-              <img src="images/kbsnews_logo.png">
-            </span>
-            <span class="broad-title">KBS-news LIVE</span>
-          </li>
-          <li class="broadnews__list-itmes">
-            <span class="broad-list"><img src="images/sbs_logo.png"></span>
-            <span class="broad-title">SBS-news LIVE</span>
-          </li>
-          <li class="broadnews__list-itmes">
-            <span class="broad-list"><img src="images/ytn_logo.png"></span>
-            <span class="broad-title">YTN-news LIVE</span>
-          </li>
-        </ul>
-      </section>
+    </section>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
-          <a href="shopping.html" class="nav__list-link"><i class="far fa-heart"></i></a>
+          <a href="shopping.html" class="nav__list-link"
+            ><i class="far fa-heart"></i
+          ></a>
         </li>
         <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link"><i class="fas fa-home"></i></a>
+          <a href="index.html" class="nav__list-link"
+            ><i class="fas fa-home"></i
+          ></a>
         </li>
         <li class="nav__list-item">
-          <a href="newspage.html" class="nav__list-link"><i class="far fa-newspaper"></i></a>
+          <a href="newspage.html" class="nav__list-link"
+            ><i class="far fa-newspaper"></i
+          ></a>
         </li>
       </ul>
     </nav>
+    <div class="screensize">
+      <span class="screensize__text">
+        Please make your screen small~!!
+      </span>
+    </div>
   </body>
 </html>

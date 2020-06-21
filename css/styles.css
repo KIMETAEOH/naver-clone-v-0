@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "status-bar.css";
 @import "main.css";
+@import "search-bar-menu.css";
 @import "nav-bar.css";
 @import "shopping.css";
 @import "mymenu.css";
+@import "newspage.css";
+@import "screensize.css";
 
 * {
   box-sizing: border-box;

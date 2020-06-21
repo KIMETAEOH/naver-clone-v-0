@@ -1,0 +1,105 @@
+.media__first-title {
+  margin-top: 20px;
+}
+
+.media__icon {
+  display: flex;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ecececec;
+}
+
+.media__icon-icc {
+  font-size: 20px;
+  color: coral;
+}
+
+.media__icon-ic {
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.articles {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.article__ment {
+  font-size: 14px;
+  padding-left: 30px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.articlelist {
+  display: block;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.articlelist__list {
+  padding-top: 15px;
+}
+
+.article__list-sub {
+  border-bottom: 1px solid #ecececec;
+}
+
+.broadnews__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.icon__live-badge-kbs {
+  background-color: red;
+  position: absolute;
+  top: 435px;
+  right: 375px;
+  font-size: 13px;
+  width: 30px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.icon__live-badge-sbs {
+  background-color: red;
+  position: absolute;
+  top: 434px;
+  right: 21px;
+  font-size: 13px;
+  width: 30px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.icon__live-badge-ytn {
+  background-color: red;
+  position: absolute;
+  top: 435px;
+  right: 199px;
+  font-size: 13px;
+  width: 30px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}

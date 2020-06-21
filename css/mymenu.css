@@ -1,7 +1,7 @@
 .status-header {
   display: flex;
   justify-content: space-between;
-  background-color: #000080;
+  background: linear-gradient(to right, #000428, #004e92);
   padding: 7px 7px;
   color: white;
 }
@@ -47,27 +47,122 @@
   -moz-text-fill-color: transparent;
 }
 
-.mainmymenu {
-  margin-top: 30px;
-}
-
-.mymenu__list-icon {
-  margin: 0;
-  padding: 0;
+.mymenu__list,
+.mymenu__list-bottom {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  padding-inline-start: 0px;
 }
 
-.mymenu__list-icon-bottom {
-  margin: 0;
-  padding: 0;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
+.mymenu__list-items {
+  height: 60px;
+  width: 60px;
+}
+
+.mymenu__list {
+  padding-left: 14px;
+  padding-right: 6px;
+}
+
+.icon__email-badge {
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 157px;
+  right: 393px;
+  font-size: 13px;
+  width: 25px;
+  height: 25px;
+  color: black;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #ecececec;
+}
+
+.mymenu__list-bottom {
+  padding-left: 12px;
+  padding-right: 5px;
+}
+
+.mymenu__icon {
+  margin-bottom: 10px;
 }
 
 .icon__list {
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  font-size: 18px;
+  padding: 6px 13px;
+  color: white;
+  border-radius: 10px;
+}
+
+.icon__title {
+  font-size: 15px;
+}
+
+.mymenupay {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #ececec;
+}
+
+.mymenupay__column-pay {
+  margin-top: 10px;
+}
+
+.mymenupay__icon-left {
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  color: white;
+  padding: 1px 2px;
+  font-size: 13px;
+}
+
+.mymenupay__icon-left-l {
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid #2980b9;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.payment__title-right {
+  background-color: #2980b9;
+  padding: 4px;
+  border-radius: 40px;
+  font-size: 14px;
+  color: white;
+}
+
+.payment__title {
   display: block;
+}
+
+.payicon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.payicon__icon {
+  margin-right: 5px;
+  padding-right: 1px;
+}
+
+.payicon__title {
+  font-size: 15px;
 }
